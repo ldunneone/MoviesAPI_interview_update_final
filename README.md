@@ -1,15 +1,19 @@
-Android-MVVM-RxJava-Movies
+Added Unit Test cases
 
-Movies sample app developed MVVM architecture design pattern that follow the best practices of Object Oriented Design Patterns with following technology stack.
+Enabled ViewBinding features
 
-Architecture Design Pattern
-MVVM
-Koin (Dependency Injection)
-Live Data
-RxJava
-Retrofit
-Repository Pattern
-AndroidX
-TMDB Movies API
-Room Database
-JetPack Libraries
+Enabled Navigation features and removed MovieDetailsActivity 
+
+Upgraded the Movie Adapter to PagingDataAdapter
+
+Upgraded the MovieDataSource to RxPagingSource
+
+Removed the DataSoureFactory
+
+Merged the repositories and removed the MovieDetailsRepository
+
+Merged the MovieViewModels and removed the MovieDetailsViewModel
+
+Updated the layout xml files with ConstraintLayout
+
+Created BaseFragment and added the NetworkChangeReceiver feature
